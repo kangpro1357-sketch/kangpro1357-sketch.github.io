@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>갈래? 개인정보처리방침</title>
+<style>
+  :root { --ink:#111; --ink2:#555; --line:#e6e6e6; --accent:#FF5A45; --bg:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#f2f2f2; --ink2:#b0b0b0; --line:#333; --bg:#111; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif; line-height:1.7; }
+  main { max-width:720px; margin:0 auto; padding:32px 20px 80px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  .sub { color:var(--ink2); font-size:14px; margin-bottom:32px; }
+  h2 { font-size:18px; margin:36px 0 10px; padding-top:16px; border-top:1px solid var(--line); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--ink2); font-weight:600; white-space:nowrap; }
+  ul { padding-left:20px; }
+  .tag { display:inline-block; background:var(--accent); color:#111; font-weight:800; border-radius:999px; padding:2px 10px; font-size:12px; margin-right:6px; }
+  a { color:inherit; }
+  .en { color:var(--ink2); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>갈래? 개인정보처리방침</h1>
+  <div class="sub"><span class="tag">갈래? (Gallae)</span> 시행일 2026년 11월 2일 · 버전 1.0</div>
+
+  <p>'갈래?'(이하 "앱")는 친구와 여행 일정을 함께 짜는 앱입니다. 개발자 Taesung(Kangpro, 이하 "개발자")은 앱 이용자의 개인정보를 소중히 다루며, 어떤 정보를 왜 다루는지 아래와 같이 알려드립니다.</p>
+
+  <h2>1. 수집하는 정보와 목적</h2>
+  <table>
+    <tr><th>항목</th><th>내용</th><th>목적</th></tr>
+    <tr><td>익명 계정 ID</td><td>앱을 처음 실행하면 Firebase 익명 로그인으로 임의의 사용자 ID가 만들어집니다. 이름·이메일·전화번호 등은 받지 않습니다.</td><td>같은 기기에서 내 여행을 다시 보여주기, 여행 멤버 구분</td></tr>
+    <tr><td>닉네임</td><td>이용자가 직접 입력한 표시 이름(선택)</td><td>여행 멤버·체크리스트에 누가 추가/체크했는지 표시</td></tr>
+    <tr><td>여행 데이터</td><td>여행 제목, 날짜, 여행지, 장소(이름·주소·좌표·메모·시간), 준비물 체크리스트, 초대 코드, 멤버 ID 목록</td><td>같은 여행에 참여한 멤버끼리 실시간으로 일정 공유</td></tr>
+    <tr><td>장소 검색어</td><td>장소를 검색할 때 입력한 검색어(한국은 카카오, 해외는 구글로 전송)</td><td>장소 검색 결과 제공</td></tr>
+  </table>
+  <p>앱은 기기의 <strong>위치 권한을 요청하지 않으며</strong>, 연락처·사진·마이크 등 다른 권한도 사용하지 않습니다. 사용하는 권한은 인터넷 연결뿐입니다.</p>
+
+  <h2>2. 정보가 저장되는 곳과 제3자 서비스</h2>
+  <p>앱은 아래 외부 서비스를 이용하며, 각 서비스는 자체 개인정보처리방침에 따라 정보를 처리합니다.</p>
+  <table>
+    <tr><th>서비스</th><th>용도</th><th>전달되는 정보</th></tr>
+    <tr><td>Firebase Authentication / Cloud Firestore (Google)</td><td>익명 로그인, 여행 데이터 실시간 저장·공유 (서버 위치: 서울 리전)</td><td>익명 계정 ID, 닉네임, 여행 데이터</td></tr>
+    <tr><td>Google Maps SDK</td><td>지도 화면 표시</td><td>지도 표시에 필요한 기술 정보(Google 방침에 따름)</td></tr>
+    <tr><td>Google Places API</td><td>해외 장소 검색</td><td>검색어, 검색 기준 좌표(여행지)</td></tr>
+    <tr><td>카카오 로컬 API (Kakao)</td><td>국내 장소 검색</td><td>검색어, 검색 기준 좌표(여행지)</td></tr>
+    <tr><td>카카오맵 · 티맵 · 구글맵 앱</td><td>길안내 (이용자가 버튼을 눌렀을 때만 해당 앱을 엽니다)</td><td>목적지 이름과 좌표</td></tr>
+  </table>
+  <ul>
+    <li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+    <li>Firebase 개인정보 및 보안: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></li>
+    <li>카카오 개인정보처리방침: <a href="https://www.kakao.com/policy/privacy" target="_blank" rel="noopener">kakao.com/policy/privacy</a></li>
+  </ul>
+
+  <h2>3. 여행 데이터는 누가 볼 수 있나요</h2>
+  <p>여행 데이터는 <strong>그 여행의 초대 코드로 참여한 멤버만</strong> 볼 수 있습니다. 초대 코드를 받은 사람은 누구나 참여할 수 있으므로 코드는 함께 갈 사람에게만 보내 주세요. 방장은 멤버를 내보내거나 코드를 새로 발급할 수 있습니다.</p>
+
+  <h2>4. 보관 기간과 삭제</h2>
+  <ul>
+    <li>여행 데이터는 방장이 여행을 삭제하면 장소·체크리스트를 포함해 즉시 삭제됩니다. 멤버가 '나가기'를 하면 그 여행의 멤버 목록에서 제외됩니다.</li>
+    <li>앱을 삭제하면 그 기기의 익명 계정으로는 더 이상 접근할 수 없습니다(다시 설치하면 새 계정이 만들어집니다).</li>
+    <li>계정이나 데이터를 완전히 지우고 싶으면 아래 이메일로 요청해 주세요. 확인 후 지체 없이 삭제합니다.</li>
+  </ul>
+
+  <h2>5. 광고와 분석</h2>
+  <p>현재 버전의 앱에는 <strong>광고와 분석(애널리틱스) 도구가 들어 있지 않습니다.</strong> 추후 광고를 넣게 되면 이 방침을 먼저 갱신해 알려드립니다.</p>
+
+  <h2>6. 아동의 개인정보</h2>
+  <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+  <h2>7. 이용자의 권리</h2>
+  <p>이용자는 언제든지 자신의 정보 열람·정정·삭제를 요청할 수 있습니다. 닉네임은 앱 안에서 직접 바꿀 수 있고, 그 밖의 요청은 아래 연락처로 보내 주세요.</p>
+
+  <h2>8. 방침의 변경</h2>
+  <p>이 방침이 바뀌면 이 페이지에 변경 내용과 시행일을 올립니다. 중요한 변경은 앱 안에서도 알려드립니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>개발자: Taesung (Kangpro)<br>이메일: <a href="mailto:kangpro1357@gmail.com">kangpro1357@gmail.com</a></p>
+
+  <h2>Privacy Policy (English summary)</h2>
+  <p class="en">Gallae ("갈래?") lets friends plan a trip together. The app signs you in anonymously with Firebase (a random user ID; no name, email or phone is collected). It stores the nickname you type and your trip data (title, dates, destination, places, memos, checklist, invite code, member IDs) in Cloud Firestore (Seoul region) so trip members can share it in real time. Place searches are sent to Kakao (Korea) or Google Places (abroad). Google Maps SDK renders the map. The app requests no location, contacts or other device permissions besides internet access. It contains no ads or analytics. Trip data is deleted when the host deletes the trip; for full account/data deletion, email kangpro1357@gmail.com. The app is not directed at children under 14.</p>
+</main>
+</body>
+</html>
